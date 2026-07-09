@@ -1,0 +1,12 @@
+package td;
+
+import android.content.Context;
+import com.bumptech.glide.Registry;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes8.dex */
+public interface b {
+    /* synthetic */ void a(Context context, com.bumptech.glide.d dVar);
+
+    /* synthetic */ void b(Context context, com.bumptech.glide.c cVar, Registry registry);
+}

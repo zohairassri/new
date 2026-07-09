@@ -1,0 +1,53 @@
+package com.amazonaws.services.s3.model;
+
+import java.io.Serializable;
+import java.util.Date;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes8.dex */
+public class Bucket implements Serializable {
+    private static final long serialVersionUID = -8646831898339939580L;
+    private Date creationDate;
+    private String name;
+    private Owner owner;
+
+    public Bucket() {
+        this.name = null;
+        this.owner = null;
+        this.creationDate = null;
+    }
+
+    public Date getCreationDate() {
+        return this.creationDate;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public Owner getOwner() {
+        return this.owner;
+    }
+
+    public void setCreationDate(Date date) {
+        this.creationDate = date;
+    }
+
+    public void setName(String str) {
+        this.name = str;
+    }
+
+    public void setOwner(Owner owner) {
+        this.owner = owner;
+    }
+
+    public String toString() {
+        return "S3Bucket [name=" + getName() + ", creationDate=" + getCreationDate() + ", owner=" + getOwner() + "]";
+    }
+
+    public Bucket(String str) {
+        this.owner = null;
+        this.creationDate = null;
+        this.name = str;
+    }
+}

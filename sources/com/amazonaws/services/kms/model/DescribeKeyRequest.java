@@ -1,0 +1,91 @@
+package com.amazonaws.services.kms.model;
+
+import com.amazonaws.AmazonWebServiceRequest;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes8.dex */
+public class DescribeKeyRequest extends AmazonWebServiceRequest implements Serializable {
+    private List<String> grantTokens = new ArrayList();
+    private String keyId;
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || !(obj instanceof DescribeKeyRequest)) {
+            return false;
+        }
+        DescribeKeyRequest describeKeyRequest = (DescribeKeyRequest) obj;
+        if ((describeKeyRequest.getKeyId() == null) ^ (getKeyId() == null)) {
+            return false;
+        }
+        if (describeKeyRequest.getKeyId() != null && !describeKeyRequest.getKeyId().equals(getKeyId())) {
+            return false;
+        }
+        if ((describeKeyRequest.getGrantTokens() == null) ^ (getGrantTokens() == null)) {
+            return false;
+        }
+        return describeKeyRequest.getGrantTokens() == null || describeKeyRequest.getGrantTokens().equals(getGrantTokens());
+    }
+
+    public List<String> getGrantTokens() {
+        return this.grantTokens;
+    }
+
+    public String getKeyId() {
+        return this.keyId;
+    }
+
+    public int hashCode() {
+        return (((getKeyId() == null ? 0 : getKeyId().hashCode()) + 31) * 31) + (getGrantTokens() != null ? getGrantTokens().hashCode() : 0);
+    }
+
+    public void setGrantTokens(Collection<String> collection) {
+        if (collection == null) {
+            this.grantTokens = null;
+        } else {
+            this.grantTokens = new ArrayList(collection);
+        }
+    }
+
+    public void setKeyId(String str) {
+        this.keyId = str;
+    }
+
+    public String toString() {
+        StringBuilder sb2 = new StringBuilder();
+        sb2.append("{");
+        if (getKeyId() != null) {
+            sb2.append("KeyId: " + getKeyId() + ",");
+        }
+        if (getGrantTokens() != null) {
+            sb2.append("GrantTokens: " + getGrantTokens());
+        }
+        sb2.append("}");
+        return sb2.toString();
+    }
+
+    public DescribeKeyRequest withGrantTokens(String... strArr) {
+        if (getGrantTokens() == null) {
+            this.grantTokens = new ArrayList(strArr.length);
+        }
+        for (String str : strArr) {
+            this.grantTokens.add(str);
+        }
+        return this;
+    }
+
+    public DescribeKeyRequest withKeyId(String str) {
+        this.keyId = str;
+        return this;
+    }
+
+    public DescribeKeyRequest withGrantTokens(Collection<String> collection) {
+        setGrantTokens(collection);
+        return this;
+    }
+}

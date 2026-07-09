@@ -1,0 +1,170 @@
+package androidx.media3.common.util;
+
+import android.opengl.GLES20;
+import androidx.media3.common.util.GlUtil;
+import java.util.HashMap;
+import java.util.Map;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes.dex */
+public final class b {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private final int f8915a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    private final a[] f8916b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    private final C0150b[] f8917c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    private final Map f8918d;
+
+    /* JADX INFO: renamed from: e, reason: collision with root package name */
+    private final Map f8919e;
+
+    /* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+    private static final class a {
+
+        /* JADX INFO: renamed from: a, reason: collision with root package name */
+        public final String f8920a;
+
+        /* JADX INFO: renamed from: b, reason: collision with root package name */
+        private final int f8921b;
+
+        private a(String str, int i11) {
+            this.f8920a = str;
+            this.f8921b = i11;
+        }
+
+        public static a a(int i11, int i12) {
+            int[] iArr = new int[1];
+            GLES20.glGetProgramiv(i11, 35722, iArr, 0);
+            int i13 = iArr[0];
+            byte[] bArr = new byte[i13];
+            GLES20.glGetActiveAttrib(i11, i12, i13, new int[1], 0, new int[1], 0, new int[1], 0, bArr, 0);
+            String str = new String(bArr, 0, b.h(bArr));
+            return new a(str, b.f(i11, str));
+        }
+    }
+
+    /* JADX INFO: renamed from: androidx.media3.common.util.b$b, reason: collision with other inner class name */
+    /* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+    private static final class C0150b {
+
+        /* JADX INFO: renamed from: a, reason: collision with root package name */
+        public final String f8922a;
+
+        /* JADX INFO: renamed from: b, reason: collision with root package name */
+        private final int f8923b;
+
+        /* JADX INFO: renamed from: c, reason: collision with root package name */
+        private final int f8924c;
+
+        /* JADX INFO: renamed from: d, reason: collision with root package name */
+        private final float[] f8925d = new float[16];
+
+        /* JADX INFO: renamed from: e, reason: collision with root package name */
+        private final int[] f8926e = new int[4];
+
+        /* JADX INFO: renamed from: f, reason: collision with root package name */
+        private int f8927f = 9729;
+
+        private C0150b(String str, int i11, int i12) {
+            this.f8922a = str;
+            this.f8923b = i11;
+            this.f8924c = i12;
+        }
+
+        public static C0150b a(int i11, int i12) {
+            int[] iArr = new int[1];
+            GLES20.glGetProgramiv(i11, 35719, iArr, 0);
+            int[] iArr2 = new int[1];
+            int i13 = iArr[0];
+            byte[] bArr = new byte[i13];
+            GLES20.glGetActiveUniform(i11, i12, i13, new int[1], 0, new int[1], 0, iArr2, 0, bArr, 0);
+            String str = new String(bArr, 0, b.h(bArr));
+            return new C0150b(str, b.i(i11, str), iArr2[0]);
+        }
+    }
+
+    public b(String str, String str2) throws GlUtil.GlException {
+        int iGlCreateProgram = GLES20.glCreateProgram();
+        this.f8915a = iGlCreateProgram;
+        GlUtil.b();
+        d(iGlCreateProgram, 35633, str);
+        d(iGlCreateProgram, 35632, str2);
+        GLES20.glLinkProgram(iGlCreateProgram);
+        int[] iArr = {0};
+        GLES20.glGetProgramiv(iGlCreateProgram, 35714, iArr, 0);
+        GlUtil.c(iArr[0] == 1, "Unable to link shader program: \n" + GLES20.glGetProgramInfoLog(iGlCreateProgram));
+        GLES20.glUseProgram(iGlCreateProgram);
+        this.f8918d = new HashMap();
+        int[] iArr2 = new int[1];
+        GLES20.glGetProgramiv(iGlCreateProgram, 35721, iArr2, 0);
+        this.f8916b = new a[iArr2[0]];
+        for (int i11 = 0; i11 < iArr2[0]; i11++) {
+            a aVarA = a.a(this.f8915a, i11);
+            this.f8916b[i11] = aVarA;
+            this.f8918d.put(aVarA.f8920a, aVarA);
+        }
+        this.f8919e = new HashMap();
+        int[] iArr3 = new int[1];
+        GLES20.glGetProgramiv(this.f8915a, 35718, iArr3, 0);
+        this.f8917c = new C0150b[iArr3[0]];
+        for (int i12 = 0; i12 < iArr3[0]; i12++) {
+            C0150b c0150bA = C0150b.a(this.f8915a, i12);
+            this.f8917c[i12] = c0150bA;
+            this.f8919e.put(c0150bA.f8922a, c0150bA);
+        }
+        GlUtil.b();
+    }
+
+    private static void d(int i11, int i12, String str) throws GlUtil.GlException {
+        int iGlCreateShader = GLES20.glCreateShader(i12);
+        GLES20.glShaderSource(iGlCreateShader, str);
+        GLES20.glCompileShader(iGlCreateShader);
+        int[] iArr = {0};
+        GLES20.glGetShaderiv(iGlCreateShader, 35713, iArr, 0);
+        GlUtil.c(iArr[0] == 1, GLES20.glGetShaderInfoLog(iGlCreateShader) + ", source: \n" + str);
+        GLES20.glAttachShader(i11, iGlCreateShader);
+        GLES20.glDeleteShader(iGlCreateShader);
+        GlUtil.b();
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static int f(int i11, String str) {
+        return GLES20.glGetAttribLocation(i11, str);
+    }
+
+    private int g(String str) {
+        return f(this.f8915a, str);
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static int h(byte[] bArr) {
+        for (int i11 = 0; i11 < bArr.length; i11++) {
+            if (bArr[i11] == 0) {
+                return i11;
+            }
+        }
+        return bArr.length;
+    }
+
+    /* JADX INFO: Access modifiers changed from: private */
+    public static int i(int i11, String str) {
+        return GLES20.glGetUniformLocation(i11, str);
+    }
+
+    public int e(String str) throws GlUtil.GlException {
+        int iG = g(str);
+        GLES20.glEnableVertexAttribArray(iG);
+        GlUtil.b();
+        return iG;
+    }
+
+    public int j(String str) {
+        return i(this.f8915a, str);
+    }
+}

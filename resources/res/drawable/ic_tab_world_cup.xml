@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="25.34"
+    android:viewportHeight="25.34">
+    <group
+        android:translateX="-2.38"
+        android:translateY="-2.72">
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M20.5053,9.1936C20.5053,13.9248 17.3656,16.8925 17.3656,19.9463C17.3656,23.7312 19.1702,26.2259 19.7069,27L10.3306,27"
+            android:strokeColor="#969693"
+            android:strokeWidth="1.31"
+            android:strokeMiterLimit="10"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M11.9033,24.4194C14.656,20.1613 17.4517,13.5377 17.7528,9.1936"
+            android:strokeColor="#969693"
+            android:strokeWidth="1.31"
+            android:strokeMiterLimit="10"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M19.7554,27L10.379,27C10.9157,26.2259 12.7204,23.7312 12.7204,19.9463C12.7204,16.8925 9.5806,13.9248 9.5806,9.1936"
+            android:strokeColor="#969693"
+            android:strokeWidth="1.31"
+            android:strokeMiterLimit="10"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M11.9407,24.6774L18.1342,24.6774"
+            android:strokeColor="#969693"
+            android:strokeWidth="1.31"
+            android:strokeMiterLimit="10"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M9.5806,9.1936A5.4194,5.4194 0 1,0 20.4194,9.1936A5.4194,5.4194 0 1,0 9.5806,9.1936Z"
+            android:strokeColor="#969693"
+            android:strokeWidth="1.31"
+            android:strokeMiterLimit="10"/>
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M12.2473,9.1935A2.7527,2.7527 0 1,0 17.7527,9.1935A2.7527,2.7527 0 1,0 12.2473,9.1935Z"
+            android:strokeColor="#969693"
+            android:strokeWidth="1.31"
+            android:strokeMiterLimit="10"/>
+    </group>
+</vector>

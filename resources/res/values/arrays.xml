@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="chat_flag_reasons">
+        <item>@string/chat_flag_reason_abuse</item>
+        <item>@string/chat_flag_reason_trolling</item>
+        <item>@string/chat_flag_reason_spam</item>
+    </array>
+    <array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="known_certs">
+        <item>@string/app_key_news_games_cooking</item>
+        <item>@string/app_key_athletic</item>
+        <item>@string/app_key_crossplay</item>
+        <item>@string/upload_key_news</item>
+        <item>@string/upload_key_games_cooking</item>
+        <item>@string/upload_key_athletic</item>
+        <item>@string/upload_key_crossplay</item>
+        <item>@string/debug_key_news</item>
+        <item>@string/debug_key_games</item>
+        <item>@string/debug_key_cooking</item>
+        <item>@string/debug_key_athletic</item>
+        <item>@string/debug_key_crossplay</item>
+    </array>
+    <array name="news_comments_flag_confirm_options">
+        <item>@string/comments_flag_dialog_text_abusive</item>
+        <item>@string/comments_flag_dialog_text_trolling</item>
+        <item>@string/comments_flag_dialog_text_spam</item>
+        <item>@string/comments_flag_dialog_text_report_user</item>
+    </array>
+    <array name="subauth_custom_nyts_login_override_entries">
+        <item>@string/subauth_custom_nyts_login_no_override</item>
+        <item>@string/subauth_custom_nyts_login_success</item>
+        <item>@string/subauth_custom_nyts_login_success_with_delay</item>
+        <item>@string/subauth_custom_nyts_login_failure</item>
+        <item>@string/subauth_custom_nyts_login_failure_with_delay</item>
+    </array>
+    <array name="subauth_email_account_state_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_email_account_state_override_registered_user</item>
+        <item>@string/subauth_email_account_state_override_anon_user</item>
+        <item>@string/subauth_email_account_state_override_regi_lite_user</item>
+        <item>@string/subauth_email_account_state_override_regi_lite_good_ta_token_good_nyt_user</item>
+        <item>@string/subauth_email_account_state_override_regi_lite_bad_ta_token_good_nyt_user</item>
+        <item>@string/subauth_email_account_state_override_regi_lite_good_ta_token_no_nyt_user</item>
+        <item>@string/subauth_email_account_state_override_regi_lite_bad_ta_token_no_nyt_user</item>
+        <item>@string/subauth_email_account_state_override_facebook_user</item>
+        <item>@string/subauth_email_account_state_override_google_user</item>
+        <item>@string/subauth_email_account_state_override_locked_user</item>
+    </array>
+    <array name="subauth_override_delete_account_state_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_override_delete_account_state_success</item>
+        <item>@string/subauth_override_delete_account_state_existing_p1_user</item>
+        <item>@string/subauth_override_delete_account_state_existing_p3_user</item>
+        <item>@string/subauth_override_delete_account_state_error_anon_user</item>
+        <item>@string/subauth_override_delete_account_state_error_missing_cookies</item>
+        <item>@string/subauth_override_delete_account_state_error_server</item>
+        <item>@string/subauth_override_delete_account_state_error_unknown</item>
+    </array>
+    <array name="subauth_override_error_state_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_override_error_state_email_first</item>
+        <item>@string/subauth_override_error_state_login</item>
+        <item>@string/subauth_override_error_state_register</item>
+        <item>@string/subauth_override_error_state_facebook_sso</item>
+        <item>@string/subauth_override_error_state_google_sso</item>
+    </array>
+    <array name="subauth_override_session_refresh_v2_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_override_session_refresh_v2_success</item>
+        <item>@string/subauth_override_session_refresh_v2_missing_cookie</item>
+        <item>@string/subauth_override_session_refresh_v2_bad_request</item>
+        <item>@string/subauth_override_session_refresh_v2_internal_server_error</item>
+        <item>@string/subauth_override_session_refresh_v2_server_unavailable_error</item>
+        <item>@string/subauth_override_session_refresh_v2_network_connectivity_error</item>
+        <item>@string/subauth_override_session_refresh_v2_unknown_error</item>
+    </array>
+    <array name="subauth_override_sso_action_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_override_sso_action_override_login</item>
+        <item>@string/subauth_override_sso_action_override_register</item>
+        <item>@string/subauth_override_sso_action_override_regilite</item>
+    </array>
+    <array name="subauth_override_user_details_entries">
+        <item>@string/subauth_override_user_details_no_override</item>
+        <item>@string/subauth_override_user_details_success_entitled</item>
+        <item>@string/subauth_override_user_details_success_non_subscriber</item>
+        <item>@string/subauth_override_user_details_failure</item>
+        <item>@string/subauth_override_user_details_soft_cancel</item>
+        <item>@string/subauth_override_user_details_invalid_dates</item>
+        <item>@string/subauth_override_user_details_failure_socket_exception</item>
+        <item>@string/subauth_override_user_details_failure_invalid_response</item>
+        <item>@string/subauth_override_user_details_fail_open_empty_user</item>
+        <item>@string/subauth_override_user_details_fail_open_empty_sub</item>
+    </array>
+    <array name="subauth_request_verification_code_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_request_verification_code_status_override_success</item>
+        <item>@string/subauth_request_verification_code_status_override_fail</item>
+    </array>
+    <array name="subauth_set_password_with_token_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_set_password_with_token_override_success</item>
+        <item>@string/subauth_set_password_with_token_override_fail_precondition</item>
+        <item>@string/subauth_set_password_with_token_override_fail</item>
+    </array>
+    <array name="subauth_sso_action_entries">
+        <item>@string/subauth_sso_action_no_override</item>
+        <item>@string/subauth_sso_action_login</item>
+        <item>@string/subauth_sso_action_register</item>
+        <item>@string/subauth_sso_action_regilite</item>
+    </array>
+    <array name="subauth_user_state_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_user_state_newly_registered_user</item>
+        <item>@string/subauth_user_state_logged_in_subscriber</item>
+        <item>@string/subauth_user_state_logged_in_unsubscribed</item>
+        <item>@string/subauth_user_state_anonymous_user</item>
+    </array>
+    <array name="subauth_verify_email_with_code_entries">
+        <item>@string/subauth_no_override</item>
+        <item>@string/subauth_verify_email_with_code_status_override_success</item>
+        <item>@string/subauth_verify_email_with_code_status_override_fail_expired</item>
+        <item>@string/subauth_verify_email_with_code_status_override_fail_invalid</item>
+        <item>@string/subauth_verify_email_with_code_status_override_fail</item>
+    </array>
+</resources>

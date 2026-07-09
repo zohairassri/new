@@ -1,0 +1,75 @@
+package px;
+
+import io.transcend.webview.IABConstants;
+import java.util.Map;
+import kotlin.collections.y0;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes10.dex */
+public final class a {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final a f121935a = new a();
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    private static final Map f121936b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    private static final Map f121937c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public static final int f121938d;
+
+    static {
+        Map mapC = y0.c();
+        mapC.put("IABTCF_CmpSdkID", 12);
+        mapC.put(IABConstants.IAB_TCF_CMP_SDK_VERSION, 1);
+        mapC.put(IABConstants.IAB_TCF_POLICY_VERSION, 4);
+        mapC.put("IABTCF_gdprApplies", 1);
+        mapC.put("IABTCF_PublisherCC", "AA");
+        mapC.put("IABTCF_PurposeOneTreatment", 0);
+        mapC.put("IABTCF_UseNonStandardTexts", 0);
+        mapC.put("IABTCF_VendorConsents", "01000001");
+        mapC.put("IABTCF_VendorLegitimateInterests", "0000000100000000000000000000000000000000000001");
+        mapC.put("IABTCF_PurposeConsents", "111100101100000000000000");
+        mapC.put(IABConstants.IAB_TCF_PURPOSE_LEGITIMATE_INTERESTS, "010000111100000000000000");
+        mapC.put(IABConstants.IAB_TCF_SPECIAL_FEATURE_OPT_INS, "010000000000");
+        mapC.put(IABConstants.IAB_TCF_PUBLISHER_CONSENT, null);
+        mapC.put(IABConstants.IAB_TCF_PUBLISHER_LEGITIMATE_INTERESTS, null);
+        mapC.put(IABConstants.IAB_TCF_PUBLISHER_CUSTOM_PURPOSES_CONSENTS, null);
+        mapC.put(IABConstants.IAB_TCF_PUBLISHER_CUSTOM_PURPOSES_LEGITIMATE_INTERESTS, null);
+        mapC.put(IABConstants.IAB_TCF_TC_STRING, "CPyZhwAPyZhwAAMABBENASEEADAAAAAAAAAAB_QAgABAD-AAAAAA.IgoMV_H3_bX9v8Tq16ft0eYFX99j77uQxBhfJs-4FyDvW_JwVn2EyNAUytqYKmRIEuzZBIQFsHJnURVChQogVryHsYkGMhTEAJ-BkgHMRa2dYCFxvmYtjEQIZ5_p_czf52R_9_dn-3czjT9lnnzVtO2dlcKidS59tH_l_bRKb-7Ied-7W_4v09tfrkW_eTVu_9evvp9-u_s_v__934AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ");
+        f121936b = y0.b(mapC);
+        Map mapC2 = y0.c();
+        mapC2.put("IABTCF_CmpSdkID", 1000000);
+        mapC2.put(IABConstants.IAB_TCF_CMP_SDK_VERSION, 1);
+        mapC2.put(IABConstants.IAB_TCF_POLICY_VERSION, 4);
+        mapC2.put("IABTCF_gdprApplies", 1);
+        mapC2.put("IABTCF_PublisherCC", "AA");
+        mapC2.put("IABTCF_PurposeOneTreatment", 0);
+        mapC2.put("IABTCF_UseNonStandardTexts", 0);
+        mapC2.put("IABTCF_VendorConsents", "");
+        mapC2.put("IABTCF_VendorLegitimateInterests", "0000000000000000000000000000000000000000000001");
+        mapC2.put("IABTCF_PurposeConsents", "000000000000000000000000");
+        mapC2.put(IABConstants.IAB_TCF_PURPOSE_LEGITIMATE_INTERESTS, "000000110100000000000000");
+        mapC2.put(IABConstants.IAB_TCF_SPECIAL_FEATURE_OPT_INS, "000000000000");
+        mapC2.put(IABConstants.IAB_TCF_PUBLISHER_CONSENT, null);
+        mapC2.put(IABConstants.IAB_TCF_PUBLISHER_LEGITIMATE_INTERESTS, null);
+        mapC2.put(IABConstants.IAB_TCF_PUBLISHER_CUSTOM_PURPOSES_CONSENTS, null);
+        mapC2.put(IABConstants.IAB_TCF_PUBLISHER_CUSTOM_PURPOSES_LEGITIMATE_INTERESTS, null);
+        mapC2.put(IABConstants.IAB_TCF_TC_STRING, "CPyZhwAPyZhwAAMABBENASEAAAAAAAAAAAAAAAAAAAAA.IgoMV_H3_bX9v8Tq16ft0eYFX99j77uQxBhfJs-4FyDvW_JwVn2EyNAUytqYKmRIEuzZBIQFsHJnURVChQogVryHsYkGMhTEAJ-BkgHMRa2dYCFxvmYtjEQIZ5_p_czf52R_9_dn-3czjT9lnnzVtO2dlcKidS59tH_l_bRKb-7Ied-7W_4v09tfrkW_eTVu_9evvp9-u_s_v__934AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ");
+        f121937c = y0.b(mapC2);
+        f121938d = 8;
+    }
+
+    private a() {
+    }
+
+    public final Map a() {
+        return f121936b;
+    }
+
+    public final Map b() {
+        return f121937c;
+    }
+}

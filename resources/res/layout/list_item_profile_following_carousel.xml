@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="layout/list_item_profile_following_carousel_0"
+    android:background="@color/ath_grey_70"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@color/ath_grey_40"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/profile_following"
+        android:layout_marginStart="@dimen/global_spacing_16"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/TextAppearance.Ath.Utility.Sans.Medium.Large"/>
+    <TextView
+        android:textColor="@color/ath_grey_40"
+        android:id="@+id/edit"
+        android:tag="binding_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_edit"
+        android:paddingStart="@dimen/global_spacing_8"
+        android:paddingEnd="@dimen/global_spacing_8"
+        android:layout_marginEnd="@dimen/global_spacing_8"
+        app:layout_constraintBottom_toBottomOf="@+id/text"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text"
+        style="@style/TextAppearance.Ath.Utility.Sans.Regular.Large"/>
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/compose_profile_followables"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/global_spacing_4"
+        android:minHeight="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/edit"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

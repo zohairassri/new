@@ -1,0 +1,28 @@
+package p5;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class b {
+    public static final int compat_button_inset_horizontal_material = 2131165276;
+    public static final int compat_button_inset_vertical_material = 2131165277;
+    public static final int compat_button_padding_horizontal_material = 2131165278;
+    public static final int compat_button_padding_vertical_material = 2131165279;
+    public static final int compat_control_corner_material = 2131165280;
+    public static final int compat_notification_large_icon_max_height = 2131165281;
+    public static final int compat_notification_large_icon_max_width = 2131165282;
+    public static final int def_drawer_elevation = 2131165284;
+    public static final int notification_action_icon_size = 2131166032;
+    public static final int notification_action_text_size = 2131166033;
+    public static final int notification_big_circle_margin = 2131166034;
+    public static final int notification_content_margin_start = 2131166035;
+    public static final int notification_large_icon_height = 2131166036;
+    public static final int notification_large_icon_width = 2131166037;
+    public static final int notification_main_column_padding_top = 2131166038;
+    public static final int notification_media_narrow_margin = 2131166039;
+    public static final int notification_right_icon_size = 2131166040;
+    public static final int notification_right_side_padding_top = 2131166041;
+    public static final int notification_small_icon_background_padding = 2131166042;
+    public static final int notification_small_icon_size_as_large = 2131166043;
+    public static final int notification_subtext_size = 2131166044;
+    public static final int notification_top_pad = 2131166045;
+    public static final int notification_top_pad_large_text = 2131166046;
+}

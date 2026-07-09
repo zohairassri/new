@@ -1,0 +1,13 @@
+package androidx.media3.exoplayer.drm;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes.dex */
+abstract class a {
+    public static byte[] a(byte[] bArr) {
+        return bArr;
+    }
+
+    public static byte[] b(byte[] bArr) {
+        return bArr;
+    }
+}

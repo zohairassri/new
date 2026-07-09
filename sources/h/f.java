@@ -1,0 +1,87 @@
+package h;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class f {
+    public static final int action_bar = 2131361864;
+    public static final int action_bar_activity_content = 2131361865;
+    public static final int action_bar_container = 2131361866;
+    public static final int action_bar_root = 2131361867;
+    public static final int action_bar_spinner = 2131361868;
+    public static final int action_bar_subtitle = 2131361869;
+    public static final int action_bar_title = 2131361870;
+    public static final int action_context_bar = 2131361873;
+    public static final int action_menu_divider = 2131361876;
+    public static final int action_menu_presenter = 2131361877;
+    public static final int action_mode_bar = 2131361878;
+    public static final int action_mode_bar_stub = 2131361879;
+    public static final int action_mode_close_button = 2131361880;
+    public static final int activity_chooser_view_content = 2131361883;
+    public static final int add = 2131361884;
+    public static final int alertTitle = 2131361888;
+    public static final int buttonPanel = 2131361946;
+    public static final int checkbox = 2131361962;
+    public static final int checked = 2131361963;
+    public static final int content = 2131361988;
+    public static final int contentPanel = 2131361989;
+    public static final int custom = 2131361998;
+    public static final int customPanel = 2131361999;
+    public static final int decor_content_parent = 2131362010;
+    public static final int default_activity_button = 2131362011;
+    public static final int edit_query = 2131362055;
+    public static final int expand_activities_button = 2131362128;
+    public static final int expanded_menu = 2131362129;
+    public static final int group_divider = 2131362167;
+    public static final int home = 2131362177;
+    public static final int icon = 2131362182;
+    public static final int image = 2131362189;
+    public static final int listMode = 2131362222;
+    public static final int list_item = 2131362223;
+    public static final int message = 2131362264;
+    public static final int multiply = 2131362303;
+    public static final int none = 2131362320;
+    public static final int normal = 2131362321;
+    public static final int off = 2131362336;
+
+    /* JADX INFO: renamed from: on, reason: collision with root package name */
+    public static final int f99243on = 2131362341;
+    public static final int parentPanel = 2131362366;
+    public static final int progress_circular = 2131362394;
+    public static final int progress_horizontal = 2131362395;
+    public static final int radio = 2131362397;
+    public static final int screen = 2131362427;
+    public static final int scrollIndicatorDown = 2131362429;
+    public static final int scrollIndicatorUp = 2131362430;
+    public static final int scrollView = 2131362431;
+    public static final int search_badge = 2131362434;
+    public static final int search_bar = 2131362435;
+    public static final int search_button = 2131362436;
+    public static final int search_close_btn = 2131362437;
+    public static final int search_edit_frame = 2131362438;
+    public static final int search_go_btn = 2131362440;
+    public static final int search_mag_icon = 2131362441;
+    public static final int search_plate = 2131362442;
+    public static final int search_src_text = 2131362443;
+    public static final int search_voice_btn = 2131362444;
+    public static final int select_dialog_listview = 2131362450;
+    public static final int shortcut = 2131362460;
+    public static final int spacer = 2131362486;
+    public static final int split_action_bar = 2131362493;
+    public static final int src_atop = 2131362498;
+    public static final int src_in = 2131362499;
+    public static final int src_over = 2131362500;
+    public static final int submenuarrow = 2131362513;
+    public static final int submit_area = 2131362514;
+    public static final int tabMode = 2131362522;
+    public static final int textSpacerNoButtons = 2131362547;
+    public static final int textSpacerNoTitle = 2131362548;
+    public static final int title = 2131362588;
+    public static final int titleDividerNoCustom = 2131362589;
+    public static final int title_template = 2131362593;
+    public static final int topPanel = 2131362603;
+    public static final int unchecked = 2131362621;
+    public static final int uniform = 2131362622;
+
+    /* JADX INFO: renamed from: up, reason: collision with root package name */
+    public static final int f99244up = 2131362624;
+    public static final int wrap_content = 2131362659;
+}

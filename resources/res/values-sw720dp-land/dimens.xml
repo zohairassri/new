@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="authentication_max_content_width">720dp</dimen>
+    <dimen name="global_list_gutter_padding">220dp</dimen>
+    <dimen name="podcast_detail_header_height">412dp</dimen>
+    <dimen name="podcast_detail_header_max_header_image_height">300dp</dimen>
+</resources>

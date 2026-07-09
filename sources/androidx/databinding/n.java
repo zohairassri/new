@@ -1,0 +1,16 @@
+package androidx.databinding;
+
+import java.util.Map;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes.dex */
+public interface n extends Map {
+
+    /* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+    public static abstract class a {
+    }
+
+    void e(a aVar);
+
+    void u(a aVar);
+}

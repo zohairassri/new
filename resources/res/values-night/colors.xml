@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundHighlight">#ff35352f</color>
+    <color name="backgroundPrimary">#ff121212</color>
+    <color name="backgroundSecondary">#ff2a2a2a</color>
+    <color name="backgroundTertiary">#ff424242</color>
+    <color name="contentAccent">#ff6ba1dd</color>
+    <color name="contentAccentDim">#ff7ca7c8</color>
+    <color name="contentBreaking">#ffe14e5b</color>
+    <color name="contentNegative">#ffea7980</color>
+    <color name="contentPositive">#ff63a859</color>
+    <color name="contentPrimary">#fff8f8f8</color>
+    <color name="contentPrimaryDim">#ffdfdfdf</color>
+    <color name="contentSecondary">#ffbbbbbb</color>
+    <color name="contentSecondaryDim">#ffa3a3a3</color>
+    <color name="strokePrimary">#fff8f8f8</color>
+    <color name="strokeTertiary">#ff424242</color>
+</resources>

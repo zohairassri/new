@@ -1,0 +1,21 @@
+package id;
+
+import id.a;
+import java.io.File;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes8.dex */
+public class b implements a {
+    @Override // id.a
+    public File b(ed.e eVar) {
+        return null;
+    }
+
+    @Override // id.a
+    public void clear() {
+    }
+
+    @Override // id.a
+    public void a(ed.e eVar, a.b bVar) {
+    }
+}

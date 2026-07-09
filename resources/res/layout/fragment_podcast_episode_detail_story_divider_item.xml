@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="layout/fragment_podcast_episode_detail_story_divider_item_0"
+    android:background="@color/ath_grey_45"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:alpha="0.3"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"/>

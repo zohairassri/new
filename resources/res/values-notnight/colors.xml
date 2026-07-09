@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ath_grey_10">#000000</color>
+    <color name="ath_grey_10_40">#66000000</color>
+    <color name="ath_grey_20">#000000</color>
+    <color name="ath_grey_30">#121212</color>
+    <color name="ath_grey_40">#323232</color>
+    <color name="ath_grey_45">#52524f</color>
+    <color name="ath_grey_50">#969693</color>
+    <color name="ath_grey_60">#f0f0ee</color>
+    <color name="ath_grey_62">#dbdbd9</color>
+    <color name="ath_grey_65">#ffffff</color>
+    <color name="ath_grey_70">#ffffff</color>
+    <color name="ath_grey_70_70">#b4ffffff</color>
+    <color name="ath_grey_80">#f0f0ee</color>
+    <color name="live_room_avatar_border">#dfdfdd</color>
+</resources>

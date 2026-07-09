@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@android:interpolator/anticipate"
+        android:duration="355"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="M 16 32 L 16 32"
+        android:valueTo="M 16 26 L 16 38"
+        android:valueType="pathType"
+        android:propertyName="pathData"/>
+</set>

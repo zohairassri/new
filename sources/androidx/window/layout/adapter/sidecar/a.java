@@ -1,0 +1,23 @@
+package androidx.window.layout.adapter.sidecar;
+
+import android.app.Activity;
+import ea.k;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes8.dex */
+public interface a {
+
+    /* JADX INFO: renamed from: androidx.window.layout.adapter.sidecar.a$a, reason: collision with other inner class name */
+    /* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+    public interface InterfaceC0205a {
+        void a(Activity activity, k kVar);
+    }
+
+    void a(InterfaceC0205a interfaceC0205a);
+
+    void b(Activity activity);
+
+    void c(Activity activity);
+
+    boolean d();
+}

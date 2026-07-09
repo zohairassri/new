@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:tag="layout/list_item_preferences_user_topic_0"
+    android:background="@color/ath_grey_70"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:foreground="?attr/selectableItemBackground">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+        <ImageView
+            android:layout_gravity="end|center_vertical"
+            android:tag="binding_1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="@null"
+            android:layout_marginEnd="16dp"/>
+        <TextView
+            android:textColor="@color/ath_grey_30"
+            android:layout_gravity="center_vertical"
+            android:tag="binding_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Ath.Utility.Sans.Medium.Large"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="end|center_vertical"
+        android:tag="binding_3"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:tint="@color/ath_grey_10"
+        android:contentDescription="@null"
+        android:layout_marginEnd="20dp"/>
+    <View
+        android:layout_gravity="bottom"
+        android:id="@+id/divider"
+        android:tag="binding_4"
+        android:background="@color/ath_grey_60"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</FrameLayout>

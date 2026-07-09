@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="top"
+    android:orientation="vertical"
+    android:id="@+id/snackbar_root"
+    android:tag="layout/layout_toaster_0"
+    android:background="?attr/toasterBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="92dp">
+        <com.theathletic.ui.widgets.BlendableImageView
+            android:tag="binding_1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="8dp"/>
+        <TextView
+            android:textColor="?attr/toasterTextColor"
+            android:tag="binding_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.Ath.Utility.Sans.Regular.Large"/>
+    </LinearLayout>
+</LinearLayout>

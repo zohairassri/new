@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp">
+    <ImageView
+        android:id="@+id/tiny_podcast_icon"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/ic_play_2"
+        android:tint="@color/ath_grey_10"/>
+    <TextView
+        android:textSize="13sp"
+        android:textColor="@color/ath_grey_10"
+        android:id="@+id/tiny_podcast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nyt_franklin_semibold"
+        android:layout_marginStart="12dp"/>
+</LinearLayout>

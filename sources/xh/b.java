@@ -1,0 +1,23 @@
+package xh;
+
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes8.dex */
+public final class b implements qi.b {
+    @Override // qi.b, java.io.Closeable, java.lang.AutoCloseable
+    public void close() {
+    }
+
+    @Override // qi.b
+    public void start() {
+    }
+
+    @Override // qi.b
+    public void t1() {
+    }
+
+    @Override // qi.b
+    public void u0(List list) {
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="14sp"
+    android:textColor="@color/ath_grey_45"
+    android:id="@+id/description"
+    android:tag="layout/list_item_host_controls_on_stage_title_0"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:text="@string/rooms_on_stage"
+    android:layout_marginStart="16dp"
+    style="@style/TextAppearance.Ath.Utility.Sans.Regular.ExtraSmall"/>

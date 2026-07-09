@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="layout/list_item_downloaded_podcast_size_0"
+    android:background="@color/ath_grey_80"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:textColor="@color/ath_grey_50"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/podcast_downloaded_size_label"
+        android:layout_marginStart="@dimen/global_spacing_16"
+        style="@style/TextAppearance.Ath.Utility.Sans.Medium.Large"/>
+    <TextView
+        android:textColor="@color/ath_grey_50"
+        android:gravity="center_vertical"
+        android:layout_gravity="end|center_vertical"
+        android:tag="binding_1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/global_spacing_16"
+        style="@style/TextAppearance.Ath.Utility.Sans.Medium.Large"/>
+</FrameLayout>

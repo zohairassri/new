@@ -1,0 +1,11 @@
+package com.theathletic.feed.ui.components;
+
+import kotlin.Metadata;
+import kotlin.jvm.internal.SourceDebugExtension;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes13.dex */
+@Metadata(d1 = {"\u0000\u0002\n\u0000¨\u0006\u0000"}, d2 = {"ui_release"}, k = 2, mv = {2, 2, 0}, xi = 48)
+@SourceDebugExtension({"SMAP\nPodcastHeroUi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PodcastHeroUi.kt\ncom/theathletic/feed/ui/components/PodcastHeroUiKt\n+ 2 Dp.kt\nandroidx/compose/ui/unit/DpKt\n+ 3 Box.kt\nandroidx/compose/foundation/layout/BoxKt\n+ 4 Layout.kt\nandroidx/compose/ui/layout/LayoutKt\n+ 5 Composables.kt\nandroidx/compose/runtime/ComposablesKt\n+ 6 Composer.kt\nandroidx/compose/runtime/Updater\n+ 7 Column.kt\nandroidx/compose/foundation/layout/ColumnKt\n+ 8 Composer.kt\nandroidx/compose/runtime/ComposerKt\n*L\n1#1,173:1\n113#2:174\n113#2:249\n113#2:250\n113#2:251\n113#2:350\n113#2:351\n113#2:352\n70#3:175\n67#3,9:176\n70#3:252\n67#3,9:253\n77#3:304\n77#3:312\n70#3:313\n67#3,9:314\n77#3:356\n80#4,6:185\n87#4,3:200\n90#4,2:209\n80#4,6:222\n87#4,3:237\n90#4,2:246\n80#4,6:262\n87#4,3:277\n90#4,2:286\n94#4:303\n94#4:307\n94#4:311\n80#4,6:323\n87#4,3:338\n90#4,2:347\n94#4:355\n391#5,9:191\n400#5:211\n391#5,9:228\n400#5:248\n391#5,9:268\n400#5:288\n401#5,2:301\n401#5,2:305\n401#5,2:309\n391#5,9:329\n400#5:349\n401#5,2:353\n4360#6,6:203\n4360#6,6:240\n4360#6,6:280\n4360#6,6:341\n87#7:212\n84#7,9:213\n94#7:308\n1282#8,6:289\n1282#8,6:295\n*S KotlinDebug\n*F\n+ 1 PodcastHeroUi.kt\ncom/theathletic/feed/ui/components/PodcastHeroUiKt\n*L\n56#1:174\n72#1:249\n82#1:250\n89#1:251\n119#1:350\n120#1:351\n121#1:352\n53#1:175\n53#1:176,9\n86#1:252\n86#1:253,9\n86#1:304\n53#1:312\n104#1:313\n104#1:314,9\n104#1:356\n53#1:185,6\n53#1:200,3\n53#1:209,2\n58#1:222,6\n58#1:237,3\n58#1:246,2\n86#1:262,6\n86#1:277,3\n86#1:286,2\n86#1:303\n58#1:307\n53#1:311\n104#1:323,6\n104#1:338,3\n104#1:347,2\n104#1:355\n53#1:191,9\n53#1:211\n58#1:228,9\n58#1:248\n86#1:268,9\n86#1:288\n86#1:301,2\n58#1:305,2\n53#1:309,2\n104#1:329,9\n104#1:349\n104#1:353,2\n53#1:203,6\n58#1:240,6\n86#1:280,6\n104#1:341,6\n58#1:212\n58#1:213,9\n58#1:308\n94#1:289,6\n93#1:295,6\n*E\n"})
+public final class p8 {
+}

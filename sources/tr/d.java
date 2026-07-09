@@ -1,0 +1,25 @@
+package tr;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes10.dex */
+public enum d implements qq.f {
+    COLLECTION_UNKNOWN(0),
+    COLLECTION_SDK_NOT_INSTALLED(1),
+    COLLECTION_ENABLED(2),
+    COLLECTION_DISABLED(3),
+    COLLECTION_DISABLED_REMOTE(4),
+    COLLECTION_SAMPLED(5);
+
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    private final int f130314a;
+
+    d(int i11) {
+        this.f130314a = i11;
+    }
+
+    @Override // qq.f
+    public int getNumber() {
+        return this.f130314a;
+    }
+}

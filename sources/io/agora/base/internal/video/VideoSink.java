@@ -1,0 +1,11 @@
+package io.agora.base.internal.video;
+
+import io.agora.base.VideoFrame;
+import io.agora.base.internal.CalledByNative;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes7.dex */
+public interface VideoSink {
+    @CalledByNative
+    void onFrame(VideoFrame videoFrame);
+}

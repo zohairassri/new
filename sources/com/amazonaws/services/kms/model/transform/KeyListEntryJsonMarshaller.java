@@ -1,0 +1,35 @@
+package com.amazonaws.services.kms.model.transform;
+
+import com.amazonaws.services.kms.model.KeyListEntry;
+import com.amazonaws.util.json.AwsJsonWriter;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes8.dex */
+class KeyListEntryJsonMarshaller {
+    private static KeyListEntryJsonMarshaller instance;
+
+    KeyListEntryJsonMarshaller() {
+    }
+
+    public static KeyListEntryJsonMarshaller getInstance() {
+        if (instance == null) {
+            instance = new KeyListEntryJsonMarshaller();
+        }
+        return instance;
+    }
+
+    public void marshall(KeyListEntry keyListEntry, AwsJsonWriter awsJsonWriter) throws Exception {
+        awsJsonWriter.beginObject();
+        if (keyListEntry.getKeyId() != null) {
+            String keyId = keyListEntry.getKeyId();
+            awsJsonWriter.name("KeyId");
+            awsJsonWriter.value(keyId);
+        }
+        if (keyListEntry.getKeyArn() != null) {
+            String keyArn = keyListEntry.getKeyArn();
+            awsJsonWriter.name("KeyArn");
+            awsJsonWriter.value(keyArn);
+        }
+        awsJsonWriter.endObject();
+    }
+}

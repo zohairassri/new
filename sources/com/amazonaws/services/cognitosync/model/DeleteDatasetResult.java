@@ -1,0 +1,51 @@
+package com.amazonaws.services.cognitosync.model;
+
+import java.io.Serializable;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes8.dex */
+@Deprecated
+public class DeleteDatasetResult implements Serializable {
+    private Dataset dataset;
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || !(obj instanceof DeleteDatasetResult)) {
+            return false;
+        }
+        DeleteDatasetResult deleteDatasetResult = (DeleteDatasetResult) obj;
+        if ((deleteDatasetResult.getDataset() == null) ^ (getDataset() == null)) {
+            return false;
+        }
+        return deleteDatasetResult.getDataset() == null || deleteDatasetResult.getDataset().equals(getDataset());
+    }
+
+    public Dataset getDataset() {
+        return this.dataset;
+    }
+
+    public int hashCode() {
+        return 31 + (getDataset() == null ? 0 : getDataset().hashCode());
+    }
+
+    public void setDataset(Dataset dataset) {
+        this.dataset = dataset;
+    }
+
+    public String toString() {
+        StringBuilder sb2 = new StringBuilder();
+        sb2.append("{");
+        if (getDataset() != null) {
+            sb2.append("Dataset: " + getDataset());
+        }
+        sb2.append("}");
+        return sb2.toString();
+    }
+
+    public DeleteDatasetResult withDataset(Dataset dataset) {
+        this.dataset = dataset;
+        return this;
+    }
+}

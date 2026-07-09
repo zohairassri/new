@@ -1,0 +1,18 @@
+package tf0;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes7.dex */
+public final class h extends j1 {
+
+    /* JADX INFO: renamed from: h, reason: collision with root package name */
+    private final Thread f129981h;
+
+    public h(Thread thread) {
+        this.f129981h = thread;
+    }
+
+    @Override // tf0.k1
+    protected Thread D1() {
+        return this.f129981h;
+    }
+}

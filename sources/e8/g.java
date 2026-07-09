@@ -1,0 +1,43 @@
+package e8;
+
+import l7.j0;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes.dex */
+interface g extends j0 {
+
+    /* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+    public static class a extends j0.b implements g {
+        public a() {
+            super(-9223372036854775807L);
+        }
+
+        @Override // e8.g
+        public long b(long j11) {
+            return 0L;
+        }
+
+        @Override // e8.g
+        public long d() {
+            return -1L;
+        }
+
+        @Override // e8.g
+        public long g() {
+            return 0L;
+        }
+
+        @Override // e8.g
+        public int m() {
+            return -2147483647;
+        }
+    }
+
+    long b(long j11);
+
+    long d();
+
+    long g();
+
+    int m();
+}

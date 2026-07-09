@@ -1,0 +1,68 @@
+package com.theathletic.analytics.data;
+
+import kotlin.Metadata;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes8.dex */
+@Metadata(d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0003\n\u0002\u0010\u000e\n\u0002\b\u0011\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003R\u000e\u0010\u0004\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\b\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\n\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\f\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u000e\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u000f\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0010\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0011\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0012\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0013\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000R\u000e\u0010\u0015\u001a\u00020\u0005X\u0086T¢\u0006\u0002\n\u0000¨\u0006\u0016"}, d2 = {"Lcom/theathletic/analytics/data/ObjectType;", "", "<init>", "()V", "ARTICLE_ID", "", "BLOG_ID", "HEADLINE_ID", "GAME_ID", "COMMENT_ID", "PODCAST_EPISODE_ID", "PODCAST_ID", "SLIDE_STORY_ID", "COLLECTABLE_ID", "PUZZLE_ID", "INSIGHT_ID", "VIDEO_ID", "SPONSOR_ID", "LINK_BANNER_ID", "LEAGUE_ID", "TEAM_ID", "TOURNAMENT_ID", "analytics_release"}, k = 1, mv = {2, 2, 0}, xi = 48)
+public final class ObjectType {
+    public static final int $stable = 0;
+
+    @NotNull
+    public static final String ARTICLE_ID = "article_id";
+
+    @NotNull
+    public static final String BLOG_ID = "blog_id";
+
+    @NotNull
+    public static final String COLLECTABLE_ID = "collectable_id";
+
+    @NotNull
+    public static final String COMMENT_ID = "comment_id";
+
+    @NotNull
+    public static final String GAME_ID = "game_id";
+
+    @NotNull
+    public static final String HEADLINE_ID = "headline_id";
+
+    @NotNull
+    public static final String INSIGHT_ID = "insight_id";
+
+    @NotNull
+    public static final ObjectType INSTANCE = new ObjectType();
+
+    @NotNull
+    public static final String LEAGUE_ID = "league_id";
+
+    @NotNull
+    public static final String LINK_BANNER_ID = "link_banner_id";
+
+    @NotNull
+    public static final String PODCAST_EPISODE_ID = "podcast_episode_id";
+
+    @NotNull
+    public static final String PODCAST_ID = "podcast_id";
+
+    @NotNull
+    public static final String PUZZLE_ID = "puzzle_id";
+
+    @NotNull
+    public static final String SLIDE_STORY_ID = "story_id";
+
+    @NotNull
+    public static final String SPONSOR_ID = "sponsor_id";
+
+    @NotNull
+    public static final String TEAM_ID = "team_id";
+
+    @NotNull
+    public static final String TOURNAMENT_ID = "tournament_id";
+
+    @NotNull
+    public static final String VIDEO_ID = "video_id";
+
+    private ObjectType() {
+    }
+}

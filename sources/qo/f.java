@@ -1,0 +1,12 @@
+package qo;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes10.dex */
+public abstract class f {
+    public static Object a(Object obj) {
+        if (obj != null) {
+            return obj;
+        }
+        throw new NullPointerException("Cannot return null from a non-@Nullable @Provides method");
+    }
+}

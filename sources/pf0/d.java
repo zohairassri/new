@@ -1,0 +1,25 @@
+package pf0;
+
+import kotlin.jvm.internal.Intrinsics;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes7.dex */
+public abstract class d {
+    public static final Object a(c cVar, Object obj) {
+        Intrinsics.checkNotNullParameter(cVar, "<this>");
+        if (cVar.isInstance(obj)) {
+            Intrinsics.checkNotNull(obj, "null cannot be cast to non-null type T of kotlin.reflect.KClasses.cast");
+            return obj;
+        }
+        throw new ClassCastException("Value cannot be cast to " + cVar.getQualifiedName());
+    }
+
+    public static final Object b(c cVar, Object obj) {
+        Intrinsics.checkNotNullParameter(cVar, "<this>");
+        if (!cVar.isInstance(obj)) {
+            return null;
+        }
+        Intrinsics.checkNotNull(obj, "null cannot be cast to non-null type T of kotlin.reflect.KClasses.safeCast");
+        return obj;
+    }
+}

@@ -1,0 +1,12 @@
+package org.chromium.support_lib_boundary;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes7.dex */
+@Retention(RetentionPolicy.SOURCE)
+public @interface PrefetchStatusCodeBoundaryInterface {
+    public static final int FAILURE = 1;
+    public static final int SUCCESS = 0;
+}

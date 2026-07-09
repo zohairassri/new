@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast forward %d second</item>
+        <item quantity="other">Fast forward %d seconds</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="plural_average_grades">
+        <item quantity="one">Average of %1$d Grade</item>
+        <item quantity="other">Average of %1$d Grades</item>
+    </plurals>
+    <plurals name="plural_comments">
+        <item quantity="one">%1$s Comment</item>
+        <item quantity="other">%1$s Comments</item>
+    </plurals>
+    <plurals name="plural_comments_replies_collapsed">
+        <item quantity="one">Expand 1 reply</item>
+        <item quantity="other">Expand %1$d replies</item>
+    </plurals>
+    <plurals name="plural_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="plural_grades">
+        <item quantity="one">%1$d Grade</item>
+        <item quantity="other">%1$d Grades</item>
+    </plurals>
+    <plurals name="plural_time_hours_ago">
+        <item quantity="one">%1$d hour ago</item>
+        <item quantity="other">%1$d hours ago</item>
+    </plurals>
+    <plurals name="plural_time_minutes_ago">
+        <item quantity="one">%1$d minute ago</item>
+        <item quantity="other">%1$d minutes ago</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="one">%1$d Result</item>
+        <item quantity="other">%1$d Results</item>
+    </plurals>
+</resources>

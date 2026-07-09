@@ -1,0 +1,19 @@
+package cx;
+
+import android.content.SharedPreferences;
+import kotlin.jvm.internal.Intrinsics;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes10.dex */
+public abstract class b {
+    public static final a a(SharedPreferences sharedPreferences) {
+        Intrinsics.checkNotNullParameter(sharedPreferences, "<this>");
+        String string = sharedPreferences.getString("nyt.purr.env_key", a.f87403c.b());
+        for (a aVar : a.values()) {
+            if (Intrinsics.areEqual(aVar.b(), string)) {
+                return aVar;
+            }
+        }
+        return null;
+    }
+}

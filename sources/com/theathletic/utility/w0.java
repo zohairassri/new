@@ -1,0 +1,21 @@
+package com.theathletic.utility;
+
+import com.chartbeat.androidsdk.QueryKeys;
+import kotlin.Metadata;
+
+/* JADX INFO: compiled from: r8-map-id-9e7ee9a42fe7cc4cda6cf7a37f69f1db09989c88ba665561dcfb218d3d1b2345 */
+/* JADX INFO: loaded from: classes7.dex */
+@Metadata(d1 = {"\u0000\b\n\u0002\u0010\u000e\n\u0002\b\u0005\u001a\r\u0010\u0001\u001a\u00020\u0000¢\u0006\u0004\b\u0001\u0010\u0002\u001a\r\u0010\u0003\u001a\u00020\u0000¢\u0006\u0004\b\u0003\u0010\u0002\u001a\r\u0010\u0004\u001a\u00020\u0000¢\u0006\u0004\b\u0004\u0010\u0002¨\u0006\u0005"}, d2 = {"", QueryKeys.TIME_ON_VIEW_IN_MINUTES, "()Ljava/lang/String;", QueryKeys.PAGE_LOAD_TIME, "a", "mobile_release"}, k = 2, mv = {2, 2, 0}, xi = 48)
+public final class w0 {
+    public static final String a() {
+        return "https://theathletic.com/code-of-conduct/";
+    }
+
+    public static final String b() {
+        return "https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy";
+    }
+
+    public static final String c() {
+        return "https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service";
+    }
+}
